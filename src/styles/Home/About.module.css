@@ -38,6 +38,7 @@
 .textBox p {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    line-height: 2.5rem;
 }
 
 .boxes {
@@ -77,6 +78,27 @@
 #junctionasia {
     border-left: 0.5rem solid orange;
 }
+
+.java {
+    color: darkorange;
+}
+
+.kotlin {
+    color: blueviolet;
+}
+
+.flutter {
+    color: deepskyblue;
+}
+
+.nextjs {
+    color: navy;
+}
+
+.springboot {
+    color: mediumseagreen;
+}
+
 
 .firstBox {
     flex: 2;
