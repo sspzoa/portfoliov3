@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5rem;
+    padding: 5rem 1rem;
 }
 
 .container h1 {
@@ -36,12 +36,14 @@
     background: whitesmoke;
     border-radius: 1rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .textBox p {
     line-height: 2rem;
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
 }
 
 .row {
@@ -61,7 +63,7 @@
     height: 0.1rem;
     background-color: #333;
     border: none;
-    margin: 20px 0;
+    margin: 1rem 0;
 }
 
 #tastebyyou {
@@ -74,4 +76,32 @@
 
 #monty {
     box-shadow: 0 0 1rem royalblue;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box img {
+        max-width: 10rem;
+        border-radius: 2.5rem;
+    }
+    .textBox {
+        padding: 1rem;
+    }
+    .textBox h1 {
+        font-size: 1.2em;
+    }
+    .textBox p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .row {
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .horizontalRule {
+        margin: 0.5rem 0;
+    }
 }

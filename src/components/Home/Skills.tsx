@@ -14,11 +14,11 @@ export default function Skills() {
                         <img src='/Skill/jetpackcompose.png'/>
                         <p>Jetpack Compose</p>
                     </div>
-                    <div className={styles.skillItem}>
+                    <div id={styles.nomargin} className={styles.skillItem}>
                         <img src='/Skill/next.png'/>
                         <p>Next.js</p>
                     </div>
-                    <div className={styles.skillItem}>
+                    <div id={styles.nomargin} className={styles.skillItem}>
                         <img src='/Skill/springboot.png'/>
                         <p>Spring Boot</p>
                     </div>

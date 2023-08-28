@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5rem;
+    padding: 5rem 1rem;
 }
 
 .container h1 {
@@ -24,8 +24,11 @@
 }
 
 .box img {
-    max-width: 20rem;
     border-radius: 1rem;
+    max-width: 20rem;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 3/4;
 }
 
 .textBox {
@@ -33,11 +36,13 @@
     background: whitesmoke;
     border-radius: 1rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .textBox p {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
     line-height: 2.5rem;
 }
 
@@ -106,4 +111,29 @@
 
 .secondBox {
     flex: 3;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+    }
+    .textBox {
+        padding: 1rem;
+    }
+    .textBox p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .boxes {
+        flex-direction: column;
+        gap: 0;
+    }
+    .box img {
+        aspect-ratio: 4/3;
+        max-width: none;
+        max-height: 15rem;
+    }
+    .boxes p {
+        font-size: 1.2rem;
+    }
 }

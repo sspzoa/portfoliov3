@@ -7,21 +7,20 @@ export default function About() {
             <div className={styles.box}>
                 <img src='/About/profile.jpeg'/>
                 <div className={styles.textBox}>
-                    {/*<p>*/}
-                    {/*    안녕하세요! 현재 한국디지털미디어고등학교에 재학중이며 앱개발 위주로 공부하고 있는 서승표입니다.*/}
-                    {/*</p>*/}
-                    {/*<p>*/}
-                    {/*    이전에 <span className={styles.java}>Java</span>와 <span className={styles.kotlin}>Kotlin</span>을*/}
-                    {/*    사용한 안드로이드 앱 개발을 공부하였고, 현재는 <span className={styles.flutter}>Flutter</span>를 이용한 크로스 플랫폼 개발을 하고있습니다.*/}
-                    {/*</p>*/}
-                    {/*<p>*/}
-                    {/*    웹프론트는 <span className={styles.nextjs}>Next.js</span>, 백엔드는 <span className={styles.springboot}>Spring Boot</span>를*/}
-                    {/*    공부했습니다.*/}
-                    {/*</p>*/}
-                    {/*<p>*/}
-                    {/*    기술의 다양한 분야에서 경험을 쌓으며, 끊임없이 발전하는 개발자가 되기 위해 노력하고있습니다!*/}
-                    {/*</p>*/}
-                    <h1>여기 들어갈거 추천좀</h1>
+                    <p>
+                        안녕하세요! 현재 한국디지털미디어고등학교에 재학중이며 앱개발 위주로 공부하고 있는 서승표입니다.
+                    </p>
+                    <p>
+                        이전에 <span className={styles.java}>Java</span>와 <span className={styles.kotlin}>Kotlin</span>을
+                        사용한 안드로이드 앱 개발을 공부하였고, 현재는 <span className={styles.flutter}>Flutter</span>를 이용한 크로스 플랫폼 개발을 하고있습니다.
+                    </p>
+                    <p>
+                        웹프론트는 <span className={styles.nextjs}>Next.js</span>, 백엔드는 <span className={styles.springboot}>Spring Boot</span>를
+                        공부했습니다.
+                    </p>
+                    <p>
+                        기술의 다양한 분야에서 경험을 쌓으며, 끊임없이 발전하는 개발자가 되기 위해 노력하고있습니다!
+                    </p>
                 </div>
             </div>
             <div className={styles.boxes}>
