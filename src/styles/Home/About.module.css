@@ -8,7 +8,7 @@
 
 .container h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .box {
@@ -20,20 +20,19 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
-    flex: 2;
+    gap: 1rem;
 }
 
 .box img {
     max-width: 20rem;
     border-radius: 1rem;
-    margin-right: 1rem;
 }
 
 .textBox {
     width: 100%;
     background: whitesmoke;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .textBox p {
@@ -46,16 +45,17 @@
     max-width: 60rem;
     display: flex;
     flex-direction: row;
+    gap: 1rem;
 }
 
 .boxes .box {
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 .boxes p {
     padding-left: 0.5rem;
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
 }
 
 #kdmhs {
@@ -79,7 +79,7 @@
 }
 
 .firstBox {
-    margin-right: 1rem;
+    flex: 2;
 }
 
 .secondBox {

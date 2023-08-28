@@ -18,7 +18,7 @@ export default function Skills() {
                         <img src='/Skill/next.png'/>
                         <p>Next.js</p>
                     </div>
-                    <div id={styles.last} className={styles.skillItem}>
+                    <div className={styles.skillItem}>
                         <img src='/Skill/springboot.png'/>
                         <p>Spring Boot</p>
                     </div>
