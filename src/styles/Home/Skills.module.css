@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills img {
+    max-width: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+#last {
+    margin: 0;
+}
+
+.box {
+    background: white;
+    width: 100%;
+    max-width: 60rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex: 2;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.skillItem p {
+    font-size: 1.5rem;
+}

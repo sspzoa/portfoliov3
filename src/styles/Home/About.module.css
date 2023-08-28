@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.box {
+    background: white;
+    width: 100%;
+    max-width: 60rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    flex: 2;
+}
+
+.box img {
+    max-width: 20rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.textBox {
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.textBox p {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.boxes {
+    width: 100%;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes .box {
+    flex-direction: column;
+}
+
+.boxes p {
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#kdmhs {
+    border-left: 0.5rem solid magenta;
+}
+
+#stealth {
+    border-left: 0.5rem solid black;
+}
+
+#stare {
+    border-left: 0.5rem solid grey;
+}
+
+#stac {
+    border-left: 0.5rem solid red;
+}
+
+#junctionasia {
+    border-left: 0.5rem solid orange;
+}
+
+.firstBox {
+    margin-right: 1rem;
+}
+
+.secondBox {
+    flex: 3;
+}

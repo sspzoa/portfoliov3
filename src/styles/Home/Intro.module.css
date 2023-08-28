@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+    height: 100vh;
+}
+
+.container img {
+    height: 10rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem #567;
+}
+
+.container h1 {
+    font-size: 3rem;
+    font-family: 'Libre Barcode 39', cursive;
+    color: black;
+    user-select: text;
+    font-weight: 400;
+}
