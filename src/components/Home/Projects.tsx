@@ -28,7 +28,7 @@ export default function Projects() {
                 <img id={styles.glud} src='/Project/glud.png'/>
                 <div className={styles.textBox}>
                     <div className={styles.row}>
-                        <h1>글루드 (23.05~)</h1><p>5인 팀 프로젝트</p>
+                        <h1>글루드 (23.05~)</h1><p>4인 팀 프로젝트</p>
                     </div>
                     <p>STAC 2023에서 만든 프로젝트입니다.</p>
                     <p>최근 ChatGPT 등 AI 기술이 비약적으로 발전하면서 그 속도를 따라가지 못하는 사람들을 위해 프롬프트 엔지니어링 없이 사용할 수 있는 AI 플랫폼을
