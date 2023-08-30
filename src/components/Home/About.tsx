@@ -32,6 +32,7 @@ export default function About() {
                 </div>
                 <div className={`${styles.box} ${styles.secondBox}`}>
                     <h1>Contests</h1>
+                    <p id={styles.codefairhackathon}>제5회 한국코드페어 해커톤 본선 (23.06~)</p>
                     <p id={styles.stac}>STAC 2023 결선 (23.05~)</p>
                     <p id={styles.junctionasia}>Junction Asia 2023 본선 (23.08)</p>
                 </div>
