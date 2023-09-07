@@ -72,12 +72,11 @@
 }
 
 .navbar__links li {
-    margin: 0.8rem 0;
+    margin: 0.5rem 0;
+    transition: transform 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .navbar__links li:hover {
-    transform: scale(1.1);
-    transition: transform 0.2s;
 }
 
 .menu {

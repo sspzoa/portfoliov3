@@ -65,7 +65,7 @@
 }
 
 #kdmhs {
-    border-left: 0.5rem solid magenta;
+    border-left: 0.5rem solid deeppink;
 }
 
 #stealth {
@@ -73,39 +73,39 @@
 }
 
 #stare {
-    border-left: 0.5rem solid grey;
+    border-left: 0.5rem solid lightslategrey;
 }
 
 #stac {
-    border-left: 0.5rem solid red;
+    border-left: 0.5rem solid orangered;
 }
 
 #junctionasia {
-    border-left: 0.5rem solid orange;
+    border-left: 0.5rem solid darkorange;
 }
 #codefairhackathon
 {
     border-left: 0.5rem solid cadetblue;
 }
 
-.java {
-    color: darkorange;
+.views {
+    color: mediumseagreen;
 }
 
-.kotlin {
-    color: blueviolet;
+.jetpackcompose {
+    color: mediumpurple;
 }
 
 .flutter {
-    color: deepskyblue;
+    color: cornflowerblue;
 }
 
 .nextjs {
-    color: navy;
+    color: darkslateblue;
 }
 
-.springboot {
-    color: mediumseagreen;
+.fastapi {
+    color: steelblue;
 }
 
 

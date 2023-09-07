@@ -12,15 +12,15 @@ export default function Skills() {
                     </div>
                     <div className={styles.skillItem}>
                         <img src='/Skill/jetpackcompose.png'/>
-                        <p>Jetpack Compose</p>
+                        <p>sCompose</p>
                     </div>
                     <div id={styles.nomargin} className={styles.skillItem}>
                         <img src='/Skill/next.png'/>
                         <p>Next.js</p>
                     </div>
                     <div id={styles.nomargin} className={styles.skillItem}>
-                        <img src='/Skill/springboot.png'/>
-                        <p>Spring Boot</p>
+                        <img src='/Skill/fastapi.png'/>
+                        <p>FastAPI</p>
                     </div>
                 </div>
             </div>

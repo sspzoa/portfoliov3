@@ -8,14 +8,13 @@ export default function About() {
                 <img src='/About/profile.jpeg'/>
                 <div className={styles.textBox}>
                     <p>
-                        안녕하세요! 현재 한국디지털미디어고등학교에 재학중이며 앱개발 위주로 공부하고 있는 서승표입니다.
+                        안녕하세요! 저는 현재 한국디지털미디어고등학교에 재학중이며 앱개발 위주로 공부하고 있는 고등학생 개발자입니다.
                     </p>
                     <p>
-                        이전에 <span className={styles.java}>Java</span>와 <span className={styles.kotlin}>Kotlin</span>을
-                        사용한 안드로이드 앱 개발을 공부하였고, 현재는 <span className={styles.flutter}>Flutter</span>를 이용한 크로스 플랫폼 개발을 하고있습니다.
+                        이전에 <span className={styles.views}>Views</span> 방식을 사용한 안드로이드 앱 개발을 공부하였고, 현재는 <span className={styles.jetpackcompose}>Jetpack Compose</span>를 이용한 안드로이드 앱 개발과 <span className={styles.flutter}>Flutter</span>을 이용한 크로스 플랫폼 개발을 하고있습니다.
                     </p>
                     <p>
-                        웹프론트는 <span className={styles.nextjs}>Next.js</span>, 백엔드는 <span className={styles.springboot}>Spring Boot</span>를
+                        웹프론트는 <span className={styles.nextjs}>Next.js</span>, 백엔드는 <span className={styles.fastapi}>FastAPI</span>를
                         공부했습니다.
                     </p>
                     <p>

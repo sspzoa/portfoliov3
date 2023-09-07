@@ -14,7 +14,13 @@
     margin-bottom: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 2rem #567;
+    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
+
+.container img:hover {
+    height: 11rem;
+}
+
 
 .container h1 {
     font-size: 3rem;
