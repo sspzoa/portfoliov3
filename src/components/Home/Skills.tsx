@@ -12,7 +12,7 @@ export default function Skills() {
                     </div>
                     <div className={styles.skillItem}>
                         <img src='/Skill/jetpackcompose.png'/>
-                        <p>sCompose</p>
+                        <p>Compose</p>
                     </div>
                     <div id={styles.nomargin} className={styles.skillItem}>
                         <img src='/Skill/next.png'/>
