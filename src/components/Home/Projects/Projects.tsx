@@ -17,8 +17,8 @@ export default function Projects() {
                         ))}
                         <hr className={styles.horizontalRule} />
                         <p>주요기능 : <br />{project.keyFeature}</p>
-                        <p>Github: <a href={project.github} target="_blank" rel="noopener noreferrer">{project.github}</a></p>
-                        <p>Demo: <a href={project.demo} target="_blank" rel="noopener noreferrer">{project.demo}</a></p>
+                        <p>Github: <a href={project.githubLink} target="_blank" rel="noopener noreferrer">{project.github}</a></p>
+                        <p>Demo: <a href={project.demoLink} target="_blank" rel="noopener noreferrer">{project.demo}</a></p>
                         <p>App: {project.app}</p>
                     </div>
                 </div>
