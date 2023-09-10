@@ -7,19 +7,23 @@ export default function Skills() {
             <div className={styles.box}>
                 <div className={styles.skills}>
                     <div className={styles.skillItem}>
-                        <img src='/Skill/flutter.png'/>
+                        <a href="https://docs.flutter.dev/" target="_blank" rel="noopener noreferrer"><img
+                            src='/Skill/flutter.png'/></a>
                         <p>Flutter</p>
                     </div>
                     <div className={styles.skillItem}>
-                        <img src='/Skill/jetpackcompose.png'/>
+                        <a href="https://developer.android.com/jetpack/compose/documentation?hl=ko" target="_blank"
+                           rel="noopener noreferrer"><img src='/Skill/jetpackcompose.png'/></a>
                         <p>Compose</p>
                     </div>
                     <div id={styles.nomargin} className={styles.skillItem}>
-                        <img src='/Skill/next.png'/>
+                        <a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer"><img
+                            src='/Skill/next.png'/></a>
                         <p>Next.js</p>
                     </div>
                     <div id={styles.nomargin} className={styles.skillItem}>
-                        <img src='/Skill/fastapi.png'/>
+                        <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer"><img
+                            src='/Skill/fastapi.png'/></a>
                         <p>FastAPI</p>
                     </div>
                 </div>
