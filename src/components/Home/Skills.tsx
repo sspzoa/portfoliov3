@@ -28,8 +28,8 @@ export default function Skills() {
                     </div>
                     <div className={styles.skillItem}>
                         <a href="https://www.postgresql.org/docs/" target="_blank" rel="noopener noreferrer"><img
-                            src='/Skill/postgressql.png'/></a>
-                        <p>PostgresSQL</p>
+                            src='/Skill/postgresql.png'/></a>
+                        <p>PostgrsSQL</p>
                     </div>
                 </div>
             </div>
