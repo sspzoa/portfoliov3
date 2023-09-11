@@ -101,11 +101,15 @@
 }
 
 .nextjs {
-    color: darkslateblue;
+    color: slategrey;
 }
 
 .fastapi {
     color: steelblue;
+}
+
+.postgressql {
+    color: darkslateblue;
 }
 
 

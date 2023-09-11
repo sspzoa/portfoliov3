@@ -8,17 +8,20 @@ export default function About() {
                 <img src='/About/profile.jpeg'/>
                 <div className={styles.textBox}>
                     <p>
-                        안녕하세요! 저는 현재 한국디지털미디어고등학교에 재학중이며 앱개발 위주로 공부하고 있는 고등학생 개발자입니다.
+                        안녕하세요! 저는 현재 한국디지털미디어고등학교에 재학 중이며 앱 개발을 공부하고 있는 고등학생 개발자입니다.
                     </p>
                     <p>
-                        이전에 <span className={styles.views}>Views</span> 방식을 사용한 안드로이드 앱 개발을 공부하였고, 현재는 <span className={styles.jetpackcompose}>Jetpack Compose</span>를 이용한 안드로이드 앱 개발과 <span className={styles.flutter}>Flutter</span>을 이용한 크로스 플랫폼 개발을 하고있습니다.
+                        이전에 <span className={styles.views}>Views</span> 방식을 사용한 안드로이드 앱 개발을 공부하였고, 현재는 <span
+                        className={styles.jetpackcompose}>Jetpack Compose</span>를 이용한 안드로이드 앱 개발과 <span
+                        className={styles.flutter}>Flutter</span>을 이용한 크로스 플랫폼 개발에 집중하고 있습니다.
                     </p>
                     <p>
-                        웹프론트는 <span className={styles.nextjs}>Next.js</span>, 백엔드는 <span className={styles.fastapi}>FastAPI</span>를
-                        공부했습니다.
+                        앱 이외에도 <span className={styles.nextjs}>웹 프론트</span>, <span
+                        className={styles.fastapi}>서버 개발</span>과 <span
+                        className={styles.postgressql}>데이터베이스 설계</span> 등을 경험해 보았습니다.
                     </p>
                     <p>
-                        기술의 다양한 분야에서 경험을 쌓으며, 끊임없이 발전하는 개발자가 되기 위해 노력하고있습니다!
+                        기술의 다양한 분야에서 경험을 쌓으며, 끊임없이 발전하는 개발자가 되기 위해 노력하고 있습니다!
                     </p>
                 </div>
             </div>

@@ -21,10 +21,15 @@ export default function Skills() {
                             src='/Skill/next.png'/></a>
                         <p>Next.js</p>
                     </div>
-                    <div id={styles.nomargin} className={styles.skillItem}>
+                    <div className={styles.skillItem}>
                         <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer"><img
                             src='/Skill/fastapi.png'/></a>
                         <p>FastAPI</p>
+                    </div>
+                    <div className={styles.skillItem}>
+                        <a href="https://www.postgresql.org/docs/" target="_blank" rel="noopener noreferrer"><img
+                            src='/Skill/postgressql.png'/></a>
+                        <p>PostgresSQL</p>
                     </div>
                 </div>
             </div>
