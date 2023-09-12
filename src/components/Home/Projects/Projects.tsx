@@ -10,7 +10,7 @@ export default function Projects() {
                     <img id={styles[project.image.split('/')[2].split('.')[0]]} src={project.image} />
                     <div className={styles.textBox}>
                         <div className={styles.row}>
-                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                            <a href={project.notion} target="_blank" rel="noopener noreferrer">
                                 <h1>{project.title}</h1></a><p>{project.teamSize}</p>
                         </div>
                         {project.description.map((desc, descIndex) => (
