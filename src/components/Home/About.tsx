@@ -11,7 +11,7 @@ export default function About() {
                         안녕하세요! 저는 현재 <span className={styles.kdmhs}>한국디지털미디어고등학교</span>에 재학 중이며 앱 개발을 공부하고 있는 고등학생 개발자입니다.
                     </p>
                     <p>
-                        이전에 <span className={styles.views}>Views</span> 방식을 사용한 안드로이드 앱 개발을 공부하였고, 현재는 <span
+                        이전에 <span className={styles.views}>Views</span> 방식의 안드로이드 앱 개발을 공부하였고, 현재는 <span
                         className={styles.jetpackcompose}>Jetpack Compose</span>를 이용한 안드로이드 앱 개발과 <span
                         className={styles.flutter}>Flutter</span>을 이용한 크로스 플랫폼 개발에 집중하고 있습니다.
                     </p>

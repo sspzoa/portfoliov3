@@ -8,12 +8,13 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: whitesmoke;
+    margin-top: 1rem;
 }
 
 .icon {
     color: whitesmoke;
     height: 2.5rem;
-    margin: 0 0.5rem 1rem;
+    margin: 0 0.5rem;
 }
 
 
