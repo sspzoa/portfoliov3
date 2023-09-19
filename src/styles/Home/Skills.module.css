@@ -14,12 +14,14 @@
 .skills {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 4rem;
 }
 
 .skills img {
-    max-width: 7rem;
-    aspect-ratio: 1;
+    max-width: 15rem;
+    aspect-ratio: 3;
     transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
     object-fit: contain ;
 }
@@ -32,19 +34,12 @@
     background: white;
     width: 100%;
     max-width: 60rem;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 1rem;
-}
-
-.skillItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
 }
 
 .skillItem p {
@@ -53,19 +48,13 @@
 
 @media (max-width: 768px) {
     .box {
-        padding: 1.5rem;
+        padding: 2rem;
     }
     .skills {
-        flex-wrap: wrap;
-        gap: 0;
+        gap: 2rem;
     }
     .skills img {
-        max-width: 5rem;
-    }
-    .skillItem {
-        width: 50%;
-        gap: 1rem;
-        margin-bottom: 1.5rem;
+        max-width: 12rem;
     }
     .skillItem p {
         font-size: 1.3rem;

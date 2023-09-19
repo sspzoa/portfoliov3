@@ -1,27 +1,22 @@
 [
   {
-    "name": "Flutter",
-    "url": "https://sspzoa.notion.site/Flutter-bc6d2ef2a0734151b2c3d125dcd470e0?pvs=4",
+    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/Flutter/Flutter",
     "imgSrc": "/Skill/flutter.png"
   },
   {
-    "name": "Android",
-    "url": "https://sspzoa.notion.site/Jetpack-Compose-4d2c4e972f2e4fe096a70ae9abab7e83?pvs=4",
+    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/Android/Android",
     "imgSrc": "/Skill/android.png"
   },
   {
-    "name": "Next.js",
-    "url": "https://sspzoa.notion.site/NextJS-d7c1971c1c84433598f0cb0eac9b5427?pvs=4",
+    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/NextJS/NextJS",
     "imgSrc": "/Skill/next.png"
   },
   {
-    "name": "FastAPI",
-    "url": "https://sspzoa.notion.site/FastAPI-702cdcbf01dc4f028743f8410a9ca5bf?pvs=4",
-    "imgSrc": "/Skill/fastapi.png"
+    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/Flask/Flask",
+    "imgSrc": "/Skill/flask.png"
   },
   {
-    "name": "PostgreSQL",
-    "url": "https://sspzoa.notion.site/PostgreSQL-481eadfefa99430bb9ab9cc041943707?pvs=4",
+    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/PostgreSQL/PostgreSQL",
     "imgSrc": "/Skill/postgresql.png"
   }
 ]

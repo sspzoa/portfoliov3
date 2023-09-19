@@ -17,7 +17,7 @@ export default function About() {
                     </p>
                     <p>
                         앱 이외에도 <span className={styles.nextjs}>웹 프론트</span>, <span
-                        className={styles.fastapi}>서버 개발</span>과 <span
+                        className={styles.flask}>서버 개발</span>과 <span
                         className={styles.postgresql}>데이터베이스 구축</span> 등을 경험해 보았습니다.
                     </p>
                     <p>

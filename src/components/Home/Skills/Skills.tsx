@@ -12,7 +12,6 @@ export default function Skills() {
                             <a href={skill.url} target="_blank" rel="noopener noreferrer">
                                 <img src={skill.imgSrc} />
                             </a>
-                            <p>{skill.name}</p>
                         </div>
                     ))}
                 </div>

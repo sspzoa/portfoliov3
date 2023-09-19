@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="61a01c81-168b-4583-96b1-9dde6c096ecb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Skill/android.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Skill/jetpackcompose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Skill/flask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Skill/android.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Skill/android.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Skill/fastapi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Skill/flutter.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Skill/flutter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Skill/next.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Skill/next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Skill/postgresql.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Skill/postgresql.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Projects/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Projects/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Skills/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Skills/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Skills/skills.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/About.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Home/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/sspzoa/Documents/GitHub/portfoliov3/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sspzoa/Documents/GitHub/portfoliov3/public/Skill",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/sspzoa/Documents/GitHub/portfoliov3/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Skill" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/Skill" />
     </key>
@@ -63,6 +76,9 @@
       <workItem from="1694856655051" duration="164000" />
       <workItem from="1694930335466" duration="235000" />
       <workItem from="1694930619504" duration="17000" />
+      <workItem from="1694993190149" duration="26000" />
+      <workItem from="1694993258793" duration="7000" />
+      <workItem from="1695098325846" duration="2430000" />
     </task>
     <servers />
   </component>
