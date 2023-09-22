@@ -103,16 +103,16 @@
     color: cornflowerblue;
 }
 
-.nextjs {
-    color: slategrey;
-}
-
-.flask {
+.reactnative {
     color: steelblue;
 }
 
-.postgresql {
+.next {
     color: darkslateblue;
+}
+
+.node {
+    color: indianred;
 }
 
 

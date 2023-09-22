@@ -13,12 +13,12 @@ export default function About() {
                     <p>
                         이전에 <span className={styles.views}>Views</span> 방식의 안드로이드 앱 개발을 공부하였고, 현재는 <span
                         className={styles.jetpackcompose}>Jetpack Compose</span>를 이용한 안드로이드 앱 개발과 <span
-                        className={styles.flutter}>Flutter</span>을 이용한 크로스 플랫폼 개발에 집중하고 있습니다.
+                        className={styles.flutter}>Flutter</span>와 <span
+                        className={styles.reactnative}>React Native</span>를 이용한 크로스 플랫폼 개발에 집중하고 있습니다.
                     </p>
                     <p>
-                        앱 이외에도 <span className={styles.nextjs}>웹 프론트</span>, <span
-                        className={styles.flask}>서버 개발</span>과 <span
-                        className={styles.postgresql}>데이터베이스 구축</span> 등을 경험해 보았습니다.
+                        앱 이외에도 <span className={styles.next}>웹 프론트</span>, <span
+                        className={styles.node}>서버 개발</span> 등을 경험해 보았습니다.
                     </p>
                     <p>
                         기술의 다양한 분야에서 경험을 쌓으며, 끊임없이 발전하는 개발자가 되기 위해 노력하고 있습니다!

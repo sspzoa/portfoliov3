@@ -1,22 +1,26 @@
 [
   {
-    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/Flutter/Flutter",
+    "url": "https://docs.flutter.dev/",
     "imgSrc": "/Skill/flutter.png"
   },
   {
-    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/Android/Android",
+    "url": "https://reactnative.dev/docs/getting-started",
+    "imgSrc": "/Skill/reactnative.svg"
+  },
+  {
+    "url": "https://developer.android.com/jetpack/compose/documentation?hl=ko",
     "imgSrc": "/Skill/android.png"
   },
   {
-    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/NextJS/NextJS",
+    "url": "https://nextjs.org/docs",
     "imgSrc": "/Skill/next.png"
   },
   {
-    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/Flask/Flask",
-    "imgSrc": "/Skill/flask.png"
+    "url": "https://docs.nestjs.com/",
+    "imgSrc": "/Skill/nest.png"
   },
   {
-    "url": "https://publish.obsidian.md/sspzoa/%F0%9F%8C%99+Areas/PostgreSQL/PostgreSQL",
-    "imgSrc": "/Skill/postgresql.png"
+    "url": "https://flask.palletsprojects.com/en/2.3.x/",
+    "imgSrc": "/Skill/flask.png"
   }
 ]
