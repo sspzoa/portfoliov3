@@ -56,10 +56,4 @@
     .skills img {
         max-width: 12rem;
     }
-    .skillItem p {
-        font-size: 1.3rem;
-    }
-    #nomargin {
-        margin: 0;
-    }
 }
