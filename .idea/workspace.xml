@@ -8,10 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Home/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/About.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Home/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Contact.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Home/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Projects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Home/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1695364820965" duration="4092000" />
       <workItem from="1695476017878" duration="6966000" />
       <workItem from="1695485141484" duration="21000" />
-      <workItem from="1695529696722" duration="4350000" />
+      <workItem from="1695529696722" duration="4577000" />
     </task>
     <servers />
   </component>
