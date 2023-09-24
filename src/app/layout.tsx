@@ -21,6 +21,8 @@ export default function RootLayout({
         <html lang="en">
         <head>
             <link rel='icon' href='/src/app/favicon.ico'/>
+            <meta name="theme-color" content="#000000" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
         </head>
         <body className={inter.className}>
         <Navbar/>
