@@ -5,7 +5,7 @@
     "description": "사용자 친화적인 로봇 요리사 플랫폼",
     "period": "23.08",
     "image": "/Project/tastebyyou.png",
-    "tag": "Flutter, Firebase",
+    "tag": "Junction Aisa 2023, Flutter, Firebase",
     "github": "https://github.com/Stare-in-dimigo/tastebyyou",
     "link": "https://publish.obsidian.md/sspzoa/%F0%9F%94%A5+Archive/TasteByYou"
   },
@@ -15,7 +15,7 @@
     "description": "프롬프트 엔지니어링 없이 문서 작성을 돕는 AI",
     "period": "23.05~23.09",
     "image": "/Project/glud.png",
-    "tag": "Flutter, Firebase, OpenAI API",
+    "tag": "STA+C 2023, Flutter, Firebase, OpenAI API",
     "github": "https://github.com/Stare-in-dimigo/glud",
     "link": "https://publish.obsidian.md/sspzoa/%F0%9F%94%A5+Archive/Glud"
   },
@@ -25,7 +25,7 @@
     "description": "몬티 홀 문제를 시뮬레이션 하는 앱",
     "period": "22.10~22.11",
     "image": "/Project/monty.png",
-    "tag": "Android, Java",
+    "tag": "KDMHS, Android, Java",
     "github": "https://github.com/sspzoa/monty",
     "link": "https://publish.obsidian.md/sspzoa/%F0%9F%94%A5+Archive/Monty"
   }
