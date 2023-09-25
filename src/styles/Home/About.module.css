@@ -80,7 +80,6 @@
 #stare {
     border-left: 0.5rem solid lightslategrey;
 }
-
 #stac {
     border-left: 0.5rem solid orangered;
 }
@@ -108,18 +107,21 @@
     color: cornflowerblue;
 }
 
-.reactnative {
+.web3 {
     color: steelblue;
 }
 
-.next {
-    color: darkslateblue;
+.bitcoin {
+    color: goldenrod;
 }
 
-.node {
-    color: indianred;
+.study {
+    color: coral;
 }
 
+.manymany {
+    color: slateblue;
+}
 
 .firstBox {
     flex: 2;
