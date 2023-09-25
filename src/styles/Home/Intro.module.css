@@ -7,12 +7,59 @@
     padding: 5rem 1rem;
     height: 100vh;
     gap: 1rem;
+    position: relative;
 }
 
 .container img {
     height: 10rem;
     border-radius: 1rem;
-    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#logo {
+    z-index: 5;
+}
+
+#dart {
+    z-index: 4;
+}
+
+#typescript {
+    z-index: 3;
+}
+
+#kotlin {
+    z-index: 2;
+}
+
+#python {
+    z-index: 1;
+}
+
+.container:hover #logo {
+    transform: translateX(-270%);
+}
+
+.container:hover #dart {
+    box-shadow: 0 0 2rem #1B2834;
+    transform: translateX(-160%);
+}
+
+.container:hover #typescript {
+    box-shadow: 0 0 2rem #3179C7;
+}
+
+.container:hover #kotlin {
+    box-shadow: 0 0 2rem #26292C;
+    transform: translateX(60%);
+}
+
+.container:hover #python {
+    box-shadow: 0 0 2rem #1F415F;
+    transform: translateX(170%);
 }
 
 #logo {
@@ -20,31 +67,23 @@
 }
 
 #dart {
-    box-shadow: 0 0 2rem #1B2834;
     background-color: #1B2834;
     padding: 1rem;
 }
 
 #typescript {
-    box-shadow: 0 0 2rem #3179C7;
     background-color: #3179C7;
     padding: 0.3rem;
 }
 
 #kotlin {
-    box-shadow: 0 0 2rem #26292C;
     background-color: #26292C;
     padding: 1.2rem;
 }
 
 #python {
-    box-shadow: 0 0 2rem #1F415F;
     background-color: #1F415F;
     padding: 1rem;
-}
-
-.container img:hover {
-    transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
