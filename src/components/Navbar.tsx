@@ -15,7 +15,7 @@ export default function Navbar() {
             <div className={styles.navbar}>
                 <div className={styles.navbar__logo}>
                     <a href='/'>
-                        <img className={styles.navbar__logo} src='/sspzoa.png'  alt='sspzoa'/>
+                        <img className={styles.navbar__logo} src='/Intro/sspzoa.png' alt='sspzoa'/>
                         <h1>Portfolio</h1>
                     </a>
                 </div>
