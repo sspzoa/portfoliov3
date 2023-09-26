@@ -18,7 +18,7 @@ export default function About() {
                     <p>
                         또 저는 <span
                         className={styles.web3}>Web3와 블록체인</span>에 굉장한 흥미를 가지고 있습니다. 단순히 <span
-                        className={styles.bitcoin}>가상화폐</span>의 개념을 넘어 이러한 기술의 발전이 각각의 측면에서 어떠한 파급 효과를 가져올지에 대해 큰
+                        className={styles.bitcoin}>가상화폐</span>의 개념을 넘어 이러한 기술의 발전이 각각의 측면에서 어떠한 변화를 가져올지에 대해 큰
                         기대감을 가지고 있습니다.
                     </p>
                     <p>
