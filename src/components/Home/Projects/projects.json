@@ -20,6 +20,16 @@
     "link": "https://publish.obsidian.md/sspzoa/%F0%9F%94%A5+Archive/Glud"
   },
   {
+    "title": "STARE Frontend",
+    "teamSize": "동아리 메인 프로젝트",
+    "description": "정보보안 초심자를 위한 가이드 웹사이트",
+    "period": "23.04~",
+    "image": "/Project/stare.png",
+    "tag": "STARE, Next.js, Typescript",
+    "github": "https://github.com/Stare-in-dimigo/stare-frontend",
+    "link": "https://publish.obsidian.md/sspzoa/%E2%AD%90+Projects/STARE+Frontend"
+  },
+  {
     "title": "Monty",
     "teamSize": "개인 프로젝트",
     "description": "몬티 홀 문제를 시뮬레이션 하는 앱",

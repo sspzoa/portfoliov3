@@ -28,20 +28,23 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className={styles.boxes}>
-                <div className={`${styles.box} ${styles.firstBox}`}>
+                <div className={styles.careerBox}>
                     <h1>Career</h1>
-                    <p id={styles.stare}>Stare (23.04~)</p>
-                    <p id={styles.stealth}>Stealth (23.03~)</p>
+                    {/*<p id={styles.dimipay}>DIMIPAY (23.10~)</p>*/}
+                    {/*<div className={styles.career}>*/}
+                    {/*    <p>제5회 한국코드페어 해커톤 본선 진출</p>*/}
+                    {/*    <p>Junction Asia 2023 본선 진출</p>*/}
+                    {/*    <p>STA+C 2023 결선 진출</p>*/}
+                    {/*    <p>STARE 메인 프로젝트 프론트엔드 구현</p>*/}
+                    {/*</div>*/}
                     <p id={styles.kdmhs}>KDMHS (23.03~)</p>
+                    <div className={styles.career}>
+                        <p>제5회 한국코드페어 해커톤 본선 진출</p>
+                        <p>Junction Asia 2023 본선 진출 (TasteByYou)</p>
+                        <p>STA+C 2023 결선 진출 (Glud)</p>
+                        <p>STARE 메인 프로젝트 프론트엔드 구현</p>
+                    </div>
                 </div>
-                <div className={`${styles.box} ${styles.secondBox}`}>
-                    <h1>Contests</h1>
-                    <p id={styles.codefairhackathon}>제5회 한국코드페어 해커톤 본선 (23.06~23.10)</p>
-                    <p id={styles.stac}>STAC 2023 결선 (23.05~23.09)</p>
-                    <p id={styles.junctionasia}>Junction Asia 2023 본선 (23.08)</p>
-                </div>
-            </div>
         </div>
     )
 }
