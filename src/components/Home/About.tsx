@@ -2,14 +2,12 @@ import Image from "next/image";
 
 import styles from '@/styles/Home/About.module.css'
 
-import profile from '@/About/profile.jpeg'
-
 export default function About() {
     return (
         <div id='about' className={styles.container}>
             <h1>About Me</h1>
             <div className={styles.box}>
-                <Image src={profile} alt="profileImage"/>
+                <img src='/About/profile.jpeg' alt="profileImage"/>
                 <div className={styles.textBox}>
                     <p>
                         안녕하세요! 저는 현재 <span className={styles.kdmhs}>한국디지털미디어고등학교</span>에 재학 중이며 개발을 공부하고 있는 고등학생 개발자입니다.

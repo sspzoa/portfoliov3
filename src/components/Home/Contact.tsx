@@ -3,9 +3,6 @@
 import {sendForm} from 'emailjs-com';
 import React, {FormEvent} from 'react';
 import styles from '@/styles/Home/Contact.module.css';
-import Image from "next/image";
-
-import owl from '@/Contact/owl.png';
 
 const Contect: React.FC = () => {
     const sendEmail = (e: FormEvent<HTMLFormElement>) => {
@@ -37,7 +34,7 @@ const Contect: React.FC = () => {
             <div className={styles.box}>
                 <form onSubmit={sendEmail}>
                     <div className={styles.row}>
-                        <Image className={styles.pic} src={owl} alt="owl"/>
+                        <img className={styles.pic} src="/Contact/owl.png" alt="owl"/>
                         <div className={styles.inputBox}>
                             <div className={styles.column}>
                                 <input type="text" name="from_name" placeholder="Name"/>
