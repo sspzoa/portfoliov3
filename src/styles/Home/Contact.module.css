@@ -34,6 +34,7 @@
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     max-width: 25rem;
+    height: auto;
     object-fit: cover;
     object-position: center;
     aspect-ratio: 1/1;
@@ -90,6 +91,8 @@
         border-top-right-radius: 1rem;
         border-bottom-left-radius: 0;
         max-width: none;
+        height: 15rem;
+        width: auto;
         object-fit: cover;
         object-position: center;
         aspect-ratio: 2/1;

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import styles from '@/styles/Home/Skills.module.css'
 import skillsData from '@/components/Home/Skills/skills.json';
 
@@ -8,9 +10,9 @@ export default function Skills() {
             <div className={styles.box}>
                 <div className={styles.skills}>
                     {skillsData.map((skill, index) => (
-                        <div key={index} className={`${styles.skillItem} ${index === 2 ? styles.nomargin : ''}`}>
+                        <div className={styles.skillItem}>
                             <a href={skill.url} target="_blank" rel="noopener noreferrer">
-                                <img src={skill.imgSrc} />
+                                <img src={skill.imgSrc} alt={skill.name}/>
                             </a>
                         </div>
                     ))}

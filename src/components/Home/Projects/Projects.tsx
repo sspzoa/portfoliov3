@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import styles from '@/styles/Home/Projects.module.css'
 import projectData from '@/components/Home/Projects/projects.json';
 

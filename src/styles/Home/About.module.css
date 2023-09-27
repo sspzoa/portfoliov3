@@ -24,9 +24,9 @@
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     max-width: 20rem;
+    height: auto;
     object-fit: cover;
     object-position: center;
-    aspect-ratio: 3/4;
 }
 
 .textBox {
@@ -129,8 +129,9 @@
         padding: 1rem;
     }
     .box img {
-        aspect-ratio: 2/1;
         max-width: none;
+        height: 15rem;
+        width: auto;
         border-bottom-left-radius: 0;
         border-top-right-radius: 1rem;
     }
