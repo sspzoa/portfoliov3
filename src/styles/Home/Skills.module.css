@@ -23,7 +23,7 @@
     max-width: 15rem;
     aspect-ratio: 3;
     transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
-    object-fit: contain ;
+    object-fit: contain;
 }
 
 .skills img:hover {
@@ -49,9 +49,11 @@
     .box {
         padding: 2rem;
     }
+
     .skills {
         gap: 2rem;
     }
+
     .skills img {
         max-width: 15rem;
     }

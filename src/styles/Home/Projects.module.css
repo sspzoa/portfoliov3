@@ -85,12 +85,15 @@
     .box {
         flex-direction: column;
     }
+
     .textBox {
         padding: 1rem;
     }
+
     .textBox p {
         font-size: 1.2rem;
     }
+
     .boxes {
         flex-direction: column;
         gap: 0;

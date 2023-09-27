@@ -97,20 +97,25 @@
         object-position: center;
         aspect-ratio: 2/1;
     }
+
     .row {
         flex-direction: column;
     }
+
     .inputBox {
         padding: 1rem;
         border-top-right-radius: 0;
         border-bottom-left-radius: 1rem;
     }
+
     .column input {
         font-size: 1.2rem;
     }
+
     .column textarea {
         font-size: 1.2rem;
     }
+
     .column button {
         font-size: 1.2rem;
     }

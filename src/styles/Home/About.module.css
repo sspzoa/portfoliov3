@@ -86,6 +86,7 @@
 .kdmhs {
     color: hotpink;
 }
+
 .views {
     color: mediumseagreen;
 }
@@ -118,16 +119,20 @@
     .box {
         flex-direction: column;
     }
+
     .textBox {
         padding: 1rem;
     }
+
     .textBox p {
         font-size: 1.2rem;
         line-height: 2rem;
     }
+
     .careerBox {
         padding: 1rem;
     }
+
     .box img {
         max-width: none;
         height: 15rem;
@@ -135,12 +140,15 @@
         border-bottom-left-radius: 0;
         border-top-right-radius: 1rem;
     }
+
     .careerBox p {
         font-size: 1.5rem;
     }
+
     .career p {
         font-size: 1.2rem;
     }
+
     .textBox {
         width: 100%;
         background: white;
