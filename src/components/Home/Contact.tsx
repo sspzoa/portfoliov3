@@ -5,7 +5,7 @@ import React, {FormEvent} from 'react';
 import styles from '@/styles/Home/Contact.module.css';
 import Image from "next/image";
 
-import owl from '/public/Contact/owl.png';
+import owl from '/Contact/owl.png';
 
 const Contect: React.FC = () => {
     const sendEmail = (e: FormEvent<HTMLFormElement>) => {

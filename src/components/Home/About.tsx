@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styles from '@/styles/Home/About.module.css'
 
-import profile from '/public/About/profile.jpeg'
+import profile from '/About/profile.jpeg'
 
 export default function About() {
     return (

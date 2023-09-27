@@ -2,11 +2,11 @@ import Image from "next/image";
 
 import styles from '@/styles/Home/Intro.module.css'
 
-import logo from '/public/Intro/sspzoa.png'
-import dart from '/public/Intro/dart.png'
-import typescript from '/public/Intro/typescript.png'
-import kotlin from '/public/Intro/kotlin.png'
-import python from '/public/Intro/python.png'
+import logo from '/Intro/sspzoa.png'
+import dart from '/Intro/dart.png'
+import typescript from '/Intro/typescript.png'
+import kotlin from '/Intro/kotlin.png'
+import python from '/Intro/python.png'
 
 export default function Intro() {
     return (
