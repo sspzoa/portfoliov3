@@ -29,13 +29,13 @@
 #typescript {
     box-shadow: 0 0 2rem #3179C7;
     background-color: #3179C7;
-    padding: 0.3rem;
+    padding: 1rem;
 }
 
 #kotlin {
     box-shadow: 0 0 2rem #26292C;
     background-color: #26292C;
-    padding: 1.2rem;
+    padding: 1rem;
 }
 
 #python {
