@@ -99,20 +99,16 @@
     color: cornflowerblue;
 }
 
-.web3 {
-    color: steelblue;
-}
-
-.bitcoin {
-    color: goldenrod;
-}
-
-.study {
+.tensorflow {
     color: coral;
 }
 
-.manymany {
+.study {
     color: slateblue;
+}
+
+.manymany {
+    color: steelblue;
 }
 
 @media (max-width: 768px) {
