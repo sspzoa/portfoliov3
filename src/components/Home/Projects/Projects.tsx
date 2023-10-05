@@ -9,8 +9,7 @@ export default function Projects() {
                 {projectData.map((project, index) => (
                     <div key={index} className={styles.projects}>
                         <div className={styles.project}>
-                            <a href={project.link} target="_blank" rel="noopener noreferrer"><img src={project.image}
-                                                                                                  alt={project.title}/></a>
+                            <img src={project.image} alt={project.title}/>
                             <div className={styles.textBox}>
                                 <div className={styles.title}>
                                     <h1>{project.title}</h1>

@@ -20,28 +20,25 @@
     box-shadow: 0 0 2rem #567;
 }
 
-#dart {
-    box-shadow: 0 0 2rem #1B2834;
-    background-color: #1B2834;
+#stare {
+    box-shadow: 0 0 2rem grey;
+    background-color: white;
     padding: 1rem;
+    aspect-ratio: 1/1;
 }
 
-#typescript {
-    box-shadow: 0 0 2rem #3179C7;
-    background-color: #3179C7;
-    padding: 1rem;
+#stealth {
+    box-shadow: 0 0 2rem black;
+    background-color: black;
+    aspect-ratio: 1/1;
 }
 
-#kotlin {
-    box-shadow: 0 0 2rem #26292C;
-    background-color: #26292C;
-    padding: 1rem;
-}
-
-#python {
-    box-shadow: 0 0 2rem #1F415F;
-    background-color: #1F415F;
-    padding: 1rem;
+#android {
+    box-shadow: 0 0 2rem forestgreen;
+    background-color: white;
+    padding: 0.5rem;
+    object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 .container img:hover {

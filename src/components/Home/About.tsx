@@ -16,8 +16,7 @@ export default function About() {
                         className={styles.flutter}>크로스 플랫폼</span> 개발에 집중하고 있습니다.
                     </p>
                     <p>
-                        저는 AI, 특히 <span className={styles.tensorflow}>딥러닝</span> 분야에 굉장한 흥미를 가지고 있습니다. 또, 최근 <span className={styles.chatgpt}>LLM</span> 기술의 발전이 우리의
-                        생활과 산업에 어떠한 변화를 가져올지에 대해 큰 기대감을 가지고 있습니다.
+                        저는 AI, 특히 <span className={styles.tensorflow}>딥러닝</span> 분야에 굉장한 흥미를 가지고 있습니다. 또, 최근 <span className={styles.chatgpt}>LLM</span> 기술의 발전이 우리 삶에 어떠한 변화를 가져올지에 대해 큰 기대감을 가지고 있습니다.
                     </p>
                     <p>
                         기술의 <span className={styles.manymany}>다양한 분야</span>에서 경험을 쌓으며, <span className={styles.study}>끊임없이 발전하는 개발자</span>가
@@ -35,7 +34,7 @@ export default function About() {
                     <p>제5회 한국코드페어 해커톤 본선 진출</p>
                     <p>Junction Asia 2023 본선 진출 (TasteByYou)</p>
                     <p>STA+C 2023 결선 진출 (Glud)</p>
-                    <p>STARE 메인 프로젝트 프론트엔드 구현</p>
+                    <p>STARE 메인 프로젝트 프론트엔드 리딩</p>
                 </div>
             </div>
         </div>

@@ -47,14 +47,14 @@
 
 @media (max-width: 768px) {
     .box {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .skills {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .skills img {
-        max-width: 15rem;
+        max-width: 10rem;
     }
 }
