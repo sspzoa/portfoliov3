@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .container {
     display: flex;
     justify-content: center;
@@ -97,12 +99,23 @@
     transform: scale(1.1);
 }
 
+.signature h1 {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: lightgray;
+    transition: color 0.2s ease-in-out;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 18rem 1rem;
     }
 
     .laptop{
+        padding: 0.5rem;
         box-shadow: 0.5rem 0.5rem 0 lightgray;
     }
 
@@ -118,7 +131,7 @@
         height: 5rem;
     }
 
-    .stickers {
+    .affiliations, .experiences {
         bottom: 0.5rem;
         right: 0.5rem;
     }
@@ -129,5 +142,11 @@
 
     #stare {
         padding: 0.5rem;
+    }
+
+    .signature h1 {
+        bottom: 0.5rem;
+        right: 0.5rem;
+        font-size: 1.2rem;
     }
 }

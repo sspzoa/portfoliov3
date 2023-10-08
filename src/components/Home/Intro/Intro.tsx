@@ -9,11 +9,15 @@ export default function Intro() {
                     <div key={section.id} className={styles[section.id]}>
                         {section.links.map((link) => (
                             <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer">
-                                <img id={styles[link.styleId]} src={link.imgSrc} alt={link.alt} />
+                                <img id={styles[link.styleId]} src={link.imgSrc} alt={link.alt}/>
                             </a>
                         ))}
                     </div>
                 ))}
+                <div className={styles.signature}>
+                    <h1>My laptop is my life.
+                    </h1>
+                </div>
             </div>
         </div>
     );
