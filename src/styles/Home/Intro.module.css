@@ -43,7 +43,7 @@
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-.stickers{
+.stickers {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
@@ -75,9 +75,6 @@
     aspect-ratio: 1/1;
 }
 
-#dimipay {
-}
-
 #android {
     box-shadow: 0 0 2rem forestgreen;
     background-color: white;
@@ -92,18 +89,31 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 20rem 1rem;
+        padding: 19rem 1rem;
     }
-    .laptop {
-        padding: 0.5rem;
-    }
+
     .laptop img {
-        height: 5rem;
+        height: 4rem;
     }
+
     .stickers {
         gap: 0.5rem;
     }
+
     #logo {
-        height: 6rem;
+        height: 5rem;
+    }
+
+    .stickers {
+        bottom: 0.5rem;
+        right: 0.5rem;
+    }
+
+    #kdmhs {
+        padding: 0.5rem;
+    }
+
+    #stare {
+        padding: 0.5rem;
     }
 }
