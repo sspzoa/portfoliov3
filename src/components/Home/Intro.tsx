@@ -19,7 +19,7 @@ export default function Intro() {
                     {/*                                                                                            alt="Dimipay"/></a>*/}
                 </div>
                 <a href="https://github.com/sspzoa" target="_blank" rel="noopener noreferrer"><img id={styles.logo}
-                                                                                                   src='/Intro/sspzoa.png'
+                                                                                                   src='/Intro/sspzoalogo.png'
                                                                                                    alt="Logo"/></a>
             </div>
         </div>
