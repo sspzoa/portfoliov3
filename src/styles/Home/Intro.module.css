@@ -16,7 +16,7 @@
     box-shadow: 0.5rem 0.5rem 1rem grey;
 }
 
-.stickers {
+.affiliations {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
@@ -24,8 +24,34 @@
     gap: 1rem;
     flex-wrap: wrap;
     position: absolute;
-    bottom: 1rem;
+    top: 1rem;
     right: 1rem;
+}
+
+.affiliations img {
+    height: 8rem;
+    width: auto;
+    border-radius: 1rem;
+    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.experiences img {
+    height: 8rem;
+    width: auto;
+    border-radius: 1rem;
+    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 #logo {
@@ -41,22 +67,6 @@
 
 #logo:hover {
     transform: translate(-50%, -50%) scale(1.1);
-}
-
-.stickers {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    align-content: start;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.stickers img {
-    height: 8rem;
-    width: auto;
-    border-radius: 1rem;
-    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 #kdmhs {
