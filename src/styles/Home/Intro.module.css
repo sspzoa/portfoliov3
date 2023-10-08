@@ -2,35 +2,80 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 5rem 1rem;
+    padding: 10rem 1rem;
     height: 100vh;
-    gap: 1rem;
 }
 
-.container img {
+.laptop {
+    max-width: 60rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #DDDDDE;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem 1rem grey;
+}
+
+.stickers {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-content: start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#logo {
+    height: 10rem;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
+    z-index: 1;
+}
+
+#logo:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.stickers{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-content: start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.stickers img {
     height: 8rem;
     width: auto;
     border-radius: 1rem;
     transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-#logo {
-    box-shadow: 0 0 2rem #567;
+#kdmhs {
+    background-color: white;
+    padding: 1rem;
 }
 
 #stare {
-    box-shadow: 0 0 2rem grey;
     background-color: white;
     padding: 1rem;
     aspect-ratio: 1/1;
 }
 
 #stealth {
-    box-shadow: 0 0 2rem black;
     background-color: black;
     aspect-ratio: 1/1;
+}
+
+#dimipay {
 }
 
 #android {
@@ -46,7 +91,19 @@
 }
 
 @media (max-width: 768px) {
-    .container img {
+    .container {
+        padding: 20rem 1rem;
+    }
+    .laptop {
+        padding: 0.5rem;
+    }
+    .laptop img {
+        height: 5rem;
+    }
+    .stickers {
+        gap: 0.5rem;
+    }
+    #logo {
         height: 6rem;
     }
 }

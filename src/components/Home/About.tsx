@@ -28,6 +28,7 @@ export default function About() {
                 <h1>Career</h1>
                 {/*<p id={styles.dimipay}>DIMIPAY (23.10~)</p>*/}
                 {/*<div className={styles.career}>*/}
+                {/*    <p>리딩</p>*/}
                 {/*</div>*/}
                 <p id={styles.kdmhs}>KDMHS (23.03~)</p>
                 <div className={styles.career}>
