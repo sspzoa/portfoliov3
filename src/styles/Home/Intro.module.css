@@ -13,7 +13,7 @@
     background-color: #DDDDDE;
     border-radius: 1rem;
     position: relative;
-    box-shadow: 0.5rem 0.5rem 1rem grey;
+    box-shadow: 1rem 1rem 0 lightgray;
 }
 
 .affiliations {
@@ -102,11 +102,15 @@
         padding: 18rem 1rem;
     }
 
+    .laptop{
+        box-shadow: 0.5rem 0.5rem 0 lightgray;
+    }
+
     .laptop img {
         height: 4rem;
     }
 
-    .stickers {
+    .affiliations, .experiences {
         gap: 0.5rem;
     }
 
