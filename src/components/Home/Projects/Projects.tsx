@@ -17,7 +17,8 @@ export default function Projects() {
                                 </div>
                                 <p>{project.description}</p>
                                 <p>{project.period} | <a href={project.github} target="_blank" rel="noopener noreferrer"
-                                                         id={styles.link}>GitHub</a></p>
+                                                         id={styles.link}>@/github.com/{project.github.split('/').pop()}</a>
+                                </p>
                                 <div className={styles.tags}>
                                     {project.tag.split(', ').map((tag, tagIndex) => (
                                         <div key={tagIndex} className={styles.tag}>
