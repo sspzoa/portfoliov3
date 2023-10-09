@@ -34,7 +34,7 @@ export default function About() {
                 <div className={styles.career}>
                     <p>제5회 한국코드페어 해커톤 본선 진출</p>
                     <p>Junction Asia 2023 본선 진출 (TasteByYou)</p>
-                    <p>STA+C 2023 결선 진출 (Glud)</p>
+                    <p>STA+C 2023 개발팀 결선 진출 (Glud)</p>
                     <p>STARE 메인 프로젝트 프론트엔드 리딩</p>
                 </div>
             </div>
