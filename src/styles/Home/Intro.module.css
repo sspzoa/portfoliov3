@@ -33,9 +33,9 @@
 }
 
 .affiliations img {
-    height: 8rem;
+    height: 10rem;
     width: auto;
-    border-radius: 1rem;
+    border-radius: 30rem;
     transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
@@ -52,9 +52,9 @@
 }
 
 .experiences img {
-    height: 8rem;
+    height: 10rem;
     width: auto;
-    border-radius: 1rem;
+    border-radius: 30rem;
     transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
