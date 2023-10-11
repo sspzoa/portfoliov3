@@ -20,11 +20,6 @@
     "imgSrc": "/Skill/next.png"
   },
   {
-    "name": "Nest.js",
-    "url": "https://docs.nestjs.com/",
-    "imgSrc": "/Skill/nest.png"
-  },
-  {
     "name": "Flask",
     "url": "https://flask.palletsprojects.com/en/2.3.x/",
     "imgSrc": "/Skill/flask.png"

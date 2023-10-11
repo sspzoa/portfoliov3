@@ -4,17 +4,19 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 8% 1rem;
+    padding: 5rem 1rem;
     height: 100vh;
 }
 
 .laptop {
+    height: 38rem;
     max-width: 60rem;
     width: 100%;
     padding: 1rem;
     background-color: #DDDDDE;
     border-radius: 1rem;
-    position: relative;
+    position: absolute;
+    top: 20%;
     box-shadow: 1rem 1rem 0 lightgray;
 }
 
@@ -110,17 +112,16 @@
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 70% 1rem;
-    }
-
     .laptop{
+        top: 35%;
+        height: 14rem;
+        width: 20rem;
         padding: 0.5rem;
         box-shadow: 0.5rem 0.5rem 0 lightgray;
     }
 
     .laptop img {
-        height: 4rem;
+        height: 3rem;
     }
 
     .affiliations, .experiences {
@@ -128,7 +129,7 @@
     }
 
     #logo {
-        height: 5rem;
+        height: 4rem;
     }
 
     .affiliations, .experiences {
