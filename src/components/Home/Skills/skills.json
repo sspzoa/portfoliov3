@@ -23,5 +23,10 @@
     "name": "Flask",
     "url": "https://flask.palletsprojects.com/en/2.3.x/",
     "imgSrc": "/Skill/flask.png"
+  },
+  {
+    "name": "PyTorch",
+    "url": "https://pytorch.org/docs/stable/index.html",
+    "imgSrc": "/Skill/pytorch.png"
   }
 ]

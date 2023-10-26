@@ -1,153 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     padding: 5rem 1rem;
     height: 100vh;
 }
 
-.laptop {
-    height: 38rem;
-    max-width: 60rem;
-    width: 100%;
-    padding: 1rem;
-    background-color: #DDDDDE;
-    border-radius: 1rem;
-    position: absolute;
-    top: 20%;
-    box-shadow: 1rem 1rem 0 lightgray;
+.time {
+    font-size: 15rem;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 10px;
+    line-height: 12rem;
+    color: white;
+    text-shadow: 0 5px 5px rgb(128, 128, 128);
 }
 
-.affiliations {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    align-content: start;
-    gap: 1rem;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-.affiliations img {
-    height: 10rem;
-    width: auto;
-    border-radius: 30rem;
-    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
-}
-
-.experiences {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-content: start;
-    gap: 1rem;
-    flex-wrap: wrap;
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-}
-
-.experiences img {
-    height: 10rem;
-    width: auto;
-    border-radius: 30rem;
-    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
-}
-
-#logo {
-    height: 10rem;
-    width: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: height 0.2s ease-in-out, transform 0.2s ease-in-out;
-    z-index: 1;
-}
-
-#logo:hover {
-    transform: translate(-50%, -50%) scale(1.1);
-}
-
-#kdmhs {
-    background-color: white;
-    padding: 1rem;
-}
-
-#stare {
-    background-color: white;
-    padding: 1rem;
-    aspect-ratio: 1/1;
-}
-
-#stealth {
-    background-color: black;
-    aspect-ratio: 1/1;
-}
-
-#android {
-    box-shadow: 0 0 2rem forestgreen;
-    background-color: white;
-    padding: 0.5rem;
-    object-fit: cover;
-    aspect-ratio: 1/1;
-}
-
-.container img:hover {
-    transform: scale(1.1);
-}
-
-.signature h1 {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.5rem;
-    color: lightgray;
-    transition: color 0.2s ease-in-out;
-}
-
-@media (max-width: 768px) {
-    .laptop{
-        top: 35%;
-        height: 14rem;
-        width: 20rem;
-        padding: 0.5rem;
-        box-shadow: 0.5rem 0.5rem 0 lightgray;
-    }
-
-    .laptop img {
-        height: 3rem;
-    }
-
-    .affiliations, .experiences {
-        gap: 0.5rem;
-    }
-
-    #logo {
-        height: 4rem;
-    }
-
-    .affiliations, .experiences {
-        bottom: 0.5rem;
-        right: 0.5rem;
-    }
-
-    #kdmhs {
-        padding: 0.5rem;
-    }
-
-    #stare {
-        padding: 0.5rem;
-    }
-
-    .signature h1 {
-        bottom: 0.5rem;
-        right: 0.5rem;
-        font-size: 1.2rem;
-    }
+.explain {
+    font-size: 5rem;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    text-shadow: 0 5px 5px rgb(128, 128, 128);
 }
