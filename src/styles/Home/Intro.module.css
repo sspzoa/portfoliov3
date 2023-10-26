@@ -25,3 +25,22 @@
     color: white;
     text-shadow: 0 5px 5px rgb(128, 128, 128);
 }
+
+@media (max-width: 768px) {
+    .time {
+        font-size: 8rem;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 5px;
+        line-height: 6rem;
+        color: white;
+        text-shadow: 0 5px 5px rgb(128, 128, 128);
+    }
+
+    .explain {
+        font-size: 3rem;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-shadow: 0 5px 5px rgb(128, 128, 128);
+    }
+}
