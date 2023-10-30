@@ -32,18 +32,11 @@ const Contect: React.FC = () => {
         <div id="contact" className={styles.container}>
             <h1>Contact Me</h1>
             <div className={styles.box}>
-                <form onSubmit={sendEmail}>
-                    <div className={styles.row}>
-                        <img className={styles.pic} src="/Contact/owl.png" alt="owl"/>
-                        <div className={styles.inputBox}>
-                            <div className={styles.column}>
-                                <input type="text" name="from_name" placeholder="Name"/>
-                                <input type="email" name="from_email" placeholder="Your Email"/>
-                                <textarea name="message" placeholder="Message"/>
-                                <button type="submit">Send</button>
-                            </div>
-                        </div>
-                    </div>
+                <form className={styles.column} onSubmit={sendEmail}>
+                    <input type="text" name="from_name" placeholder="Name"/>
+                    <input type="email" name="from_email" placeholder="Your Email"/>
+                    <textarea name="message" placeholder="Message"/>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </div>

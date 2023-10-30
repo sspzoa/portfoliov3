@@ -1,5 +1,15 @@
 [
   {
+    "title": "Snnect",
+    "teamSize": "3인 팀 프로젝트",
+    "description": "학생들의 인맥과 팀 구성을 돕는 플랫폼",
+    "period": "23.10",
+    "image": "/Project/snnect.png",
+    "tag": "2023 KCF Hackathon, Next.js, Flask, MySQL, Docker, AWS",
+    "github": "https://github.com/Stare-in-dimigo/kcf-frontend",
+    "link": "https://publish.obsidian.md/sspzoa/%F0%9F%94%A5+Archive/Monty"
+  },
+  {
     "title": "TasteByYou",
     "teamSize": "5인 팀 프로젝트",
     "description": "사용자 친화적인 로봇 요리사 플랫폼",

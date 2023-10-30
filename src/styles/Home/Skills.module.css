@@ -7,8 +7,8 @@
 }
 
 .container h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .skills {
@@ -33,7 +33,7 @@
 .box {
     background: white;
     width: 100%;
-    max-width: 60rem;
+    max-width: 70rem;
     padding: 3rem;
     border-radius: 1rem;
     display: flex;

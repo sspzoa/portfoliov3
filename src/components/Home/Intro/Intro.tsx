@@ -1,25 +1,21 @@
 'use client'
 
-import { useState, useEffect } from 'react';
 import styles from '@/styles/Home/Intro.module.css';
 
 export default function Intro() {
-    const [currentTime, setCurrentTime] = useState(new Date());
-
-    useEffect(() => {
-        const timerId = setInterval(() => {
-            setCurrentTime(new Date());
-        }, 1000);
-
-        return () => {
-            clearInterval(timerId);
-        };
-    }, []);
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.time}>{currentTime.toLocaleTimeString('en-US', { hour12: false })}</h1>
-            <p className={styles.explain}>GMT +9</p>
+            <div className={styles.introContainer}>
+                <div className={styles.logo}>
+                    <h1>
+                        Hello World!<br/>I&apos;m Seungpyo Suh
+                    </h1>
+                    <p>I&apos;m a software engineer,<br />proficient in using Android,<br />learning to make cross-platform apps.</p>
+                </div>
+                <img className={styles.logoimage} src='/Intro/sspzoalogo.png'/>
+                <a href="#about" className={styles.scroll}><img src="/Intro/arrow.svg"/></a>
+            </div>
         </div>
     );
 }

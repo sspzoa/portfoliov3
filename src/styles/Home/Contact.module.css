@@ -7,43 +7,18 @@
 }
 
 .container h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .box {
+    padding: 1rem;
     background: white;
     width: 100%;
-    max-width: 60rem;
+    height: 30rem;
+    max-width: 50rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
-}
-
-.inputBox {
-    background: white;
-    width: 100%;
-    padding: 1.5rem;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.pic {
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    max-width: 25rem;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
-    aspect-ratio: 1/1;
-}
-
-.row {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
 }
 
 .column {
@@ -87,27 +62,6 @@
 }
 
 @media (max-width: 768px) {
-    .pic {
-        border-top-right-radius: 1rem;
-        border-bottom-left-radius: 0;
-        max-width: none;
-        height: 15rem;
-        width: auto;
-        object-fit: cover;
-        object-position: center;
-        aspect-ratio: 2/1;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .inputBox {
-        padding: 1rem;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 1rem;
-    }
-
     .column input {
         font-size: 1.2rem;
     }

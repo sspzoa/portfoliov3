@@ -28,5 +28,15 @@
     "name": "PyTorch",
     "url": "https://pytorch.org/docs/stable/index.html",
     "imgSrc": "/Skill/pytorch.png"
+  },
+  {
+    "name": "AWS",
+    "url": "https://docs.aws.amazon.com/",
+    "imgSrc": "/Skill/aws.png"
+  },
+  {
+    "name": "Docker",
+    "url": "https://docs.docker.com/get-started/",
+    "imgSrc": "/Skill/docker.png"
   }
 ]

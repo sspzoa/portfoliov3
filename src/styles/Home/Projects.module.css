@@ -9,8 +9,8 @@
 }
 
 .container h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .projects {
@@ -23,6 +23,7 @@
 }
 
 .project {
+    width: 34.5rem;
     background: white;
     border-radius: 1rem;
     display: flex;
