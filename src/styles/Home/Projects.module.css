@@ -9,7 +9,7 @@
 }
 
 .container h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .project {
-    width: 34.5rem;
+    width: 22.5rem;
     background: white;
     border-radius: 1rem;
     display: flex;
@@ -53,12 +53,12 @@
 }
 
 .textBox h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 .textBox p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .tags {
@@ -73,7 +73,7 @@
     background-color: black;
     padding: 0.2rem 0.5rem;
     border-radius: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
 }
 
@@ -87,7 +87,7 @@
     }
 
     .textBox p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .boxes {

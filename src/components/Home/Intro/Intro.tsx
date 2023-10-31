@@ -9,7 +9,7 @@ export default function Intro() {
             <div className={styles.introContainer}>
                 <div className={styles.logo}>
                     <h1>
-                        Hello World!<br/>I&apos;m Seungpyo Suh
+                        Hello,<br/>I&apos;m Seungpyo Suh
                     </h1>
                     <p>I&apos;m a software engineer,<br />proficient in using Android,<br />learning to make cross-platform apps.</p>
                 </div>

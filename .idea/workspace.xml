@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61a01c81-168b-4583-96b1-9dde6c096ecb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Skill/nuxt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Intro/Intro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Intro/Intro.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Projects/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Projects/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Skills/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Skills/skills.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/About.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Contact.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home/Intro.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Intro.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +69,9 @@
       <recent name="$PROJECT_DIR$/public/Project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Skill" />
       <recent name="$PROJECT_DIR$/public/Intro" />
       <recent name="$PROJECT_DIR$/public/Project" />
-      <recent name="$PROJECT_DIR$/public/Skill" />
       <recent name="$PROJECT_DIR$/src/components/Home/Intro" />
       <recent name="$PROJECT_DIR$/src/components/Home" />
     </key>
@@ -122,7 +133,9 @@
       <workItem from="1698284391027" duration="1957000" />
       <workItem from="1698292927507" duration="734000" />
       <workItem from="1698655758576" duration="4565000" />
-      <workItem from="1698741584911" duration="23000" />
+      <workItem from="1698741584911" duration="52000" />
+      <workItem from="1698750170182" duration="149000" />
+      <workItem from="1698750445583" duration="728000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@
 }
 
 .container h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -36,7 +36,7 @@
     border-radius: 0.5rem;
     border: 1px solid transparent;
     background: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .column textarea {
@@ -45,7 +45,7 @@
     border-radius: 0.5rem;
     border: 1px solid transparent;
     background-color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     flex-grow: 1;
     resize: vertical;
 }
@@ -57,20 +57,20 @@
     border: 1px solid black;
     background-color: black;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
 @media (max-width: 768px) {
     .column input {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .column textarea {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .column button {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }

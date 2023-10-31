@@ -20,6 +20,11 @@
     "imgSrc": "/Skill/next.png"
   },
   {
+    "name": "Nuxt",
+    "url": "https://nuxt.com/docs/getting-started/introduction",
+    "imgSrc": "/Skill/nuxt.png"
+  },
+  {
     "name": "Flask",
     "url": "https://flask.palletsprojects.com/en/2.3.x/",
     "imgSrc": "/Skill/flask.png"
